@@ -62,7 +62,7 @@ kubectl get po -L app
 # or
 kubectl get po --label-columns=app
 ```
-
+JONO
 </p>
 </details>
 
