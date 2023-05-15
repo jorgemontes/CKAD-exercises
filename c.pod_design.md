@@ -62,7 +62,6 @@ kubectl get po -L app
 # or
 kubectl get po --label-columns=app
 ```
-JONO
 </p>
 </details>
 
@@ -185,6 +184,8 @@ kubectl delete po nginx{1..3}
 </details>
 
 ## Pod Placement
+
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 
 ### Create a pod that will be deployed to a Node that has the label 'accelerator=nvidia-tesla-p100'
 
