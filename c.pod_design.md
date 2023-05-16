@@ -185,7 +185,6 @@ kubectl delete po nginx{1..3}
 
 ## Pod Placement
 
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 
 ### Create a pod that will be deployed to a Node that has the label 'accelerator=nvidia-tesla-p100'
 
@@ -246,6 +245,8 @@ spec:
 </details>
 
 ### Taint a node with key `tier` and value `frontend` with effect `NoShedule`. Then, create a pod that tolerates this taint.
+
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 
 <details><summary>show</summary>
 <p>
