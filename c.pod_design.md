@@ -246,7 +246,6 @@ spec:
 
 ### Taint a node with key `tier` and value `frontend` with effect `NoShedule`. Then, create a pod that tolerates this taint.
 
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 
 <details><summary>show</summary>
 <p>
@@ -280,6 +279,7 @@ spec:
 
 ### Create a pod that will be placed on node `controlplane`. Use nodeSelector and tolerations.
 
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 <details><summary>show</summary>
 <p>
 
