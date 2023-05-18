@@ -279,7 +279,6 @@ spec:
 
 ### Create a pod that will be placed on node `controlplane`. Use nodeSelector and tolerations.
 
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 <details><summary>show</summary>
 <p>
 
@@ -312,6 +311,9 @@ kubectl create -f pod.yaml
 </details>
 
 ## Deployments
+
+
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 
 kubernetes.io > Documentation > Concepts > Workloads > Workload Resources > [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment)
 
