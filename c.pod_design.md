@@ -313,8 +313,6 @@ kubectl create -f pod.yaml
 ## Deployments
 
 
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
-
 kubernetes.io > Documentation > Concepts > Workloads > Workload Resources > [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment)
 
 ### Create a deployment with image nginx:1.18.0, called nginx, having 2 replicas, defining port 80 as the port that this container exposes (don't create a service for this deployment)
@@ -347,7 +345,7 @@ kubectl create deploy nginx --image=nginx:1.18.0 --replicas=2 --port=80
 </details>
 
 ### View the YAML of this deployment
-
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 <details><summary>show</summary>
 <p>
 
