@@ -345,7 +345,7 @@ kubectl create deploy nginx --image=nginx:1.18.0 --replicas=2 --port=80
 </details>
 
 ### View the YAML of this deployment
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
+
 <details><summary>show</summary>
 <p>
 
@@ -448,6 +448,7 @@ kubectl describe po nginx-5ff4457d65-nslcl | grep -i image # should be nginx:1.1
 </details>
 
 ### Do an on purpose update of the deployment with a wrong image nginx:1.91
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 
 <details><summary>show</summary>
 <p>
