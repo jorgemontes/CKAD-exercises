@@ -448,7 +448,7 @@ kubectl describe po nginx-5ff4457d65-nslcl | grep -i image # should be nginx:1.1
 </details>
 
 ### Do an on purpose update of the deployment with a wrong image nginx:1.91
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
+
 
 <details><summary>show</summary>
 <p>
@@ -520,7 +520,7 @@ kubectl describe deploy nginx
 </details>
 
 ### Autoscale the deployment, pods between 5 and 10, targetting CPU utilization at 80%
-
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 <details><summary>show</summary>
 <p>
 
