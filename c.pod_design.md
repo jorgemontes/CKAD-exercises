@@ -520,7 +520,7 @@ kubectl describe deploy nginx
 </details>
 
 ### Autoscale the deployment, pods between 5 and 10, targetting CPU utilization at 80%
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
+
 <details><summary>show</summary>
 <p>
 
@@ -591,7 +591,7 @@ kubectl delete deploy/nginx hpa/nginx
 </details>
 
 ### Implement canary deployment by running two instances of nginx marked as version=v1 and version=v2 so that the load is balanced at 75%-25% ratio
-
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 <details><summary>show</summary>
 <p>
 
