@@ -264,8 +264,8 @@ kind: Pod
 metadata:
   name: frontend
 spec:
-  image:
-    name: nginx
+  containers:
+  - name: nginx
     image: nginx
   tolerations:
   - key: "tier"
