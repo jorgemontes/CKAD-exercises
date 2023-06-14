@@ -737,7 +737,6 @@ version-2
 </details>
 
 ## Jobs
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 
 ### Create a job named pi with image perl:5.34 that runs the command with arguments "perl -Mbignum=bpi -wle 'print bpi(2000)'"
 
@@ -782,6 +781,7 @@ kubectl delete job pi
 
 ### Create a job with the image busybox that executes the command 'echo hello;sleep 30;echo world'
 
+:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 <details><summary>show</summary>
 <p>
 
