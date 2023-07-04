@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  creationTimestamp: null
+  name: job30secs
+spec:
+  activeDeadlineSeconds: 30
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: busybox
+        command: ["/bin/sh", "-c","while true; do echo hello; sleep 10;done"]
+        name: nginx
+        resources: {}
+      restartPolicy: Never
+status: {}
