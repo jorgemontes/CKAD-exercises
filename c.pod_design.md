@@ -832,7 +832,6 @@ kubectl delete job busybox
 </details>
 
 ### Create a job but ensure that it will be automatically terminated by kubernetes if it takes more than 30 seconds to execute
-:point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up: :point_up:
 <details><summary>show</summary>
 <p>
 
