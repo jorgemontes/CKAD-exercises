@@ -1,6 +1,6 @@
 ![](https://gaforgithub.azurewebsites.net/api?repo=CKAD-exercises/configuration&empty)
 # Configuration (18%)
-:point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up:
+
 [ConfigMaps](#configmaps)
 
 [SecurityContext](#securitycontext)
@@ -233,6 +233,8 @@ cat var8 # will show val8
 </details>
 
 ## SecurityContext
+
+:point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up:
 
 kubernetes.io > Documentation > Tasks > Configure Pods and Containers > [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 
