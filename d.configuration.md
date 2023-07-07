@@ -234,7 +234,6 @@ cat var8 # will show val8
 
 ## SecurityContext
 
-:point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up:
 
 kubernetes.io > Documentation > Tasks > Configure Pods and Containers > [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 
@@ -720,6 +719,8 @@ kubectl exec -it nginx -- env | grep USERNAME | cut -d '=' -f 2 # will show 'adm
 
 ## ServiceAccounts
 
+:point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up::point_up:
+ 
 kubernetes.io > Documentation > Tasks > Configure Pods and Containers > [Configure Service Accounts for Pods](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
 
 ### See all the service accounts of the cluster in all namespaces
